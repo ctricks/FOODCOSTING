@@ -29,10 +29,7 @@ return new class extends Migration
             $table->string('bonus');
             $table->char('country');
             $table->char('city');
-            $table->dateTime('exit_date'); 	
-            $table->timestamp('updated_at'); 	
-            $table->timestamp('created_at'); 	
-
+            $table->dateTime('exit_date'); 		
         });
     }
 
